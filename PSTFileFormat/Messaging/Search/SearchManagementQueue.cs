@@ -6,11 +6,6 @@
  * 
  * Maintainer: Tal Aloni <tal@kmrom.com>
  */
-using System;
-using System.Collections.Generic;
-using System.ServiceProcess;
-using System.Text;
-using Utilities;
 
 namespace PSTFileFormat
 {
@@ -129,6 +124,8 @@ namespace PSTFileFormat
             }
         }
 
+
+        /*
         public static bool IsWindowsDesktopSearchIndexingEnabled()
         {
             ServiceController service = FindService("WSearch");
@@ -155,5 +152,6 @@ namespace PSTFileFormat
             }
             return null;
         }
+        */
     }
 }
